@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    }
+
+body {
+    background-color: #131533;
+    color: #F0E6EF;
+    margin: 0;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Barlow", sans-serif;
+    letter-spacing: 1.5px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+p, a, li {
+    color:#F0E6EF;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B8BEDD;
+    font-weight:600;
+    text-decoration: underline;
+    transition: 300ms ease;
+}
+
+a:active {
+    color: #9C89B8;
+}
+
+header {
+    background-image: url("../media/homepage/home_header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 28rem;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.navbar {
+    background-color:rgba(0, 0, 0, 0.329);
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    top: 0;
+    width: 100%;
+}
+
+.nav-left {
+    align-self: center;
+    width: 15%;
+}
+
+.nav-middle {
+    align-self:center;
+    width: 60%;
+}
+
+.nav-right {
+    align-self:center;
+    width: 25%;
+}
+
+.nav-logo {
+    width: 25%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    width: 45%;
+}
+
+.home-section-top, .home-section-bottom {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.home-section-bottom {
+    margin-bottom: 4rem;
+}
+
+.home-banner {
+    height: 12rem;
+    position: relative;
+    width: 45%;
+}
+
+.banner-button {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border: none;
+    height: 12rem;
+    width: 100%;
+}
+
+.banner-button h2 {
+    align-self: center;
+    color:#F0E6EF;
+    justify-content: center;
+    position: absolute;
+    text-transform:uppercase;
+}
+
+.banner-button-backgrounds {
+    background-image: url("../media/homepage/Krygura_Iron\ Snake_Pub_\(Ext.\)_resize.png");
+    
+}
+
+.banner-button-design {
+    background-image: url("../media/homepage/Krygura_Character_Lineup_resize.png");
+}
+
+.banner-button-animations h2 {
+    color: #131533 !important;
+}
+
+.banner-button-personal {
+    background-image: url("../media/homepage/grandia_resize.png")
+}
+
+.banner-button-backgrounds:hover, .banner-button-animations:hover, .banner-button-design:hover, .banner-button-personal:hover {
+    opacity: 0.5;
+}
+
+.banner-button-backgrounds h2:hover {
+    opacity: 1 !important;
+}
