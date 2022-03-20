@@ -1,0 +1,78 @@
+header {
+    background-image: url("../media/homepage/home_header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 28rem;
+}
+
+.header-title {
+    letter-spacing: 1.5px;
+    margin-top: 12rem;
+    text-transform: uppercase;
+}
+
+/* HOME PAGE */
+.home-section-top, .home-section-bottom {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.home-section-bottom {
+    margin-bottom: 4rem;
+}
+
+.home-banner {
+    height: 12rem;
+    position: relative;
+    width: 45%;
+}
+
+.banner-button {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border: none;
+    height: 12rem;
+    width: 100%;
+}
+
+.banner-button h2 {
+    align-self: center;
+    color:#F0E6EF;
+    justify-content: center;
+    opacity: 1;
+    text-shadow: 3px 3px 2px #000000;
+    text-transform:uppercase;
+}
+
+.btn-text h2:hover {
+    opacity: 1 !important;
+}
+
+.banner-button-backgrounds {
+    background-image: url("../media/homepage/Krygura_Iron\ Snake_Pub_\(Ext.\)_resize.png");
+}
+
+.banner-button-design {
+    background-image: url("../media/homepage/Krygura_Character_Lineup_resize.png");
+}
+
+.banner-button-personal {
+    background-image: url("../media/homepage/grandia_resize.png");
+    background-position: top;
+}
+
+.banner-button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 500ms ease;
+}
+
+.banner-button-animations h2 {
+    color: #131533 !important;
+}

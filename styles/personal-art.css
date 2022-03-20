@@ -1,0 +1,16 @@
+header {
+    background-image: url("../media/personal_art/grandia_header.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 22rem;
+    position: relative;
+}
+
+.header-title {
+    color: #131533;
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+    position: absolute;
+    text-transform:uppercase;
+}

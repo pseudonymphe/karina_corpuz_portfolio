@@ -1,0 +1,15 @@
+header {
+    background-image: url("../media/backgrounds/Krygura\ Iron\ Snake\ Pub_header.png");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 22rem;
+    position: relative;
+}
+
+.header-title {
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+    position: absolute;
+    text-transform:uppercase;
+}
