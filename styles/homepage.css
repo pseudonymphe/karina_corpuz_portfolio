@@ -7,8 +7,12 @@ header {
 
 .header-title {
     letter-spacing: 1.5px;
-    margin-top: 12rem;
+    margin-top: 6rem;
     text-transform: uppercase;
+}
+
+.header-sub {
+    margin: 0;
 }
 
 /* HOME PAGE */
@@ -26,32 +30,40 @@ header {
 }
 
 .home-banner {
-    height: 12rem;
-    position: relative;
-    width: 45%;
-}
-
-.banner-button {
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 5px;
-    border: none;
-    height: 12rem;
+    height: 16rem;
+    position: relative;
+    text-shadow: 3px 0 0 #000000;
+    text-transform: uppercase;
     width: 100%;
 }
 
-.banner-button h2 {
-    align-self: center;
-    color:#F0E6EF;
-    justify-content: center;
-    opacity: 1;
-    text-shadow: 3px 3px 2px #000000;
-    text-transform:uppercase;
+.btn-text{
+    display: flex;
+    font-size:40px;
+    font-weight: 700;
+    height: 100%;
+    line-height: 100%;
+    justify-content:center;
+    padding-top: 6rem;
+    position: absolute;
+    text-align:center;
+    width: 100%;
 }
 
-.btn-text h2:hover {
-    opacity: 1 !important;
+.btn-text:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 500ms ease;
+}
+
+.btn-link {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
 }
 
 .banner-button-backgrounds {
@@ -64,15 +76,5 @@ header {
 
 .banner-button-personal {
     background-image: url("../media/homepage/grandia_resize.png");
-    background-position: top;
-}
-
-.banner-button:hover {
-    cursor: pointer;
-    opacity: 0.5;
-    transition: 500ms ease;
-}
-
-.banner-button-animations h2 {
-    color: #131533 !important;
+    background-position: center top;
 }
